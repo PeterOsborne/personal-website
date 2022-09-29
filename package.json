@@ -1,7 +1,7 @@
 {
   "name": "react-personalwebsite",
   "version": "0.1.0",
-  "homepage": "hello",
+  "homepage": "https://PeterOsborne.github.io/PersonalWebsite",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
