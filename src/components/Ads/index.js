@@ -8,9 +8,9 @@ const Ads = () => {
                     <h1>I decided to learn how to run ads on a website. But don't worry! All proceedings go to my bank account!</h1>
                 </div>
             </div>
-            <div className = "info-map">
+            <div className = "info-maps">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1952411074520223"
-    crossorigin="anonymous"></script>
+    crossOrigin="anonymous"></script>
             </div>
             
         </>
