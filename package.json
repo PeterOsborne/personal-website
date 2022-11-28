@@ -1,7 +1,6 @@
 {
   "name": "react-personalwebsite",
   "version": "0.1.0",
-  "homepage": "https://PeterOsborne.github.io/PersonalWebsite",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -12,7 +11,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
-    "gsap-trial": "^3.11.1",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -27,11 +25,8 @@
   "scripts": {
     "start": "PORT=8001 react-scripts start",
     "build": "react-scripts build",
-    "build-localhost": "PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy" : "npm run build && gh-pages -d build"
-
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

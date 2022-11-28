@@ -33,11 +33,11 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious Year 12 Student looking for a work experience or intern position in IT, 
+            I'm an ambitious Year 12 Student looking for a work experience or intern position in IT, 
             mathematics or physics with the opportunity to work with the latest technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working 
+            I'm quietly confident, naturally curious, and perpetually working 
             on software engineering problems.
           </p>
           <p>

@@ -16,6 +16,8 @@ const Contact = () => {
     }, 3000)
   }, [])
 
+
+
   const sendEmail = (e) => {
     e.preventDefault()
 
@@ -76,7 +78,7 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="SEND" />
+                  <input type="submit" className="flat-button" value="SEND"/>
                 </li>
               </ul>
             </form>
@@ -85,14 +87,12 @@ const Contact = () => {
         <div className="info-map">
           Peter Hamar Osborne
           <br />
-          Australia,
+          Gold Coast,
           <br />
-          Gold Coast <br />
-          <br />
-          <span>peterosborne248@gmail.com</span>
+          Australia <br />
         </div>
         <div className="map-wrap">
-          <MapContainer center={[-28.042935, 153.448518]} zoom={13}>
+          <MapContainer center={[-28.042935, 153.448518]} zoom={2}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[-28.042935, 153.448518]}>
               <Popup>Peter lives here, come over for a cup of coffee :</Popup>
