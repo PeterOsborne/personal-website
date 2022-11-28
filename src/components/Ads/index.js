@@ -10,7 +10,7 @@ const Ads = () => {
             </div>
             <div className = "info-maps">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1952411074520223"
-    crossOrigin="anonymous"></script>
+    crossorigin="anonymous"></script>
             </div>
             
         </>
