@@ -33,12 +33,11 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm an ambitious Year 12 Student looking for a work experience or intern position in IT, 
-            mathematics or physics with the opportunity to work with the latest technologies on challenging and diverse projects.
+            I'm an ambitious UNSW Software Engineering Student looking for an internship in the computer science, finance or mathematics with the opportunity to work with the latest technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
             I'm quietly confident, naturally curious, and perpetually working 
-            on software engineering problems.
+            on financial and software engineering problems.
           </p>
           <p>
             Stay tuned for further updates. I hope to continue to expand this personal website with more pages, interactions and information.

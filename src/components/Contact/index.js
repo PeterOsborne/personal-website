@@ -46,7 +46,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in work experience or intern positions in the field of mathematics, physics, computer science and software engineering. If you have any requests or questions, don't hesitate to contact me using the form below.
+            If you have any requests or questions, please don't hesitate to contact me using the form below.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>

@@ -3,7 +3,7 @@ import LogoS from '../../assets/images/logo-p.png'
 import LogoSubtitle from '../../assets/images/logo_Peter.png'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAd, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub, } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => 
@@ -39,13 +39,13 @@ const Sidebar = () =>
                 to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
-            <NavLink 
+            {/* <NavLink
                 exact="true"
                 activeclassname="active"
-                className="hello-link"
-                to="/ads">
-                <FontAwesomeIcon icon={faAd} color="#4d4d4e" />
-            </NavLink>
+                className="blog-link"
+                to="/blog">
+                <FontAwesomeIcon icon={faBook} color="#4d4d4e" />
+            </NavLink> */}
 
 
         </nav>
@@ -54,7 +54,7 @@ const Sidebar = () =>
         <ul>
             <li>
                 <a
-                    href="https://www.linkedin.com/in/peter-osborne-210540221/"
+                    href="https://www.linkedin.com/in/peter-haraldur-hamar-osborne-210540221/"
                     target="_blank"
                     rel="noreferrer"
                     >

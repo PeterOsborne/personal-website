@@ -4,7 +4,7 @@ import Layout from './components/Layout'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
-import Ads from './components/Ads'
+import Blog from './components/Blog'
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
           <Route path="hello" element={<Home />} />
           <Route path="PersonalWebsite" element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="blog" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="ads" element={<Ads />} />
         </Route>
       </Routes>
     </>

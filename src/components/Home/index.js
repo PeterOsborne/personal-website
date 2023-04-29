@@ -41,7 +41,7 @@ const Home = () => {
                   strArray={lastNameArray}
                   idx={19}/>
                 </h1>
-                <h2> Programmer / Musician / Footballer / Interested in Mathematics and Physics </h2>
+                <h2> Programmer / Musician / Footballer / Interested in Mathematics and Finance </h2>
                 <Link to="/contact" className="flat-button"> CONTACT ME</Link>
             </div>
             <Logo />
