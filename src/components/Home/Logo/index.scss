@@ -1,8 +1,9 @@
 .logo-container {
+    display: flex;
     z-index: 0;
     width: 400px;
     height: 609px;
-    opacity: 0.8;
+    opacity: 50%;
     position: absolute;
     top: 0;
     right: 15%;
@@ -27,4 +28,11 @@
 
   }
 
-  
+@media screen and (max-width: 1500px) {
+  .logo-container{
+    position: relative;
+    top: 100px;
+    left: 10%;
+    width: 40%
+  }
+}

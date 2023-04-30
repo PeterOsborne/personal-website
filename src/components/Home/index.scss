@@ -1,6 +1,8 @@
 .home-page {
   .text-zone {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: relative;
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
@@ -65,6 +67,7 @@
 
   .flat-button {
     color: #ffd700;
+    width: 125px;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
@@ -86,7 +89,7 @@
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
   .tags,
   .home-page h1:before,
   .home-page h1:after {
@@ -94,13 +97,14 @@
   }
 
   .home-page .text-zone {
-    position: initial;
+    position: relative;
     width: 100%;
     transform: none;
     padding: 10px;
     box-sizing: border-box;
+    justify-content: center !important;
   }
-
+  
   .home-page .flat-button {
     float: none;
     display: block;
@@ -116,7 +120,6 @@
     right: 0;
     box-sizing: border-box;
     margin: auto;
-    left: 0;
   }
 
   .logo-container svg {
@@ -124,7 +127,6 @@
     top: auto;
     right: auto;
     bottom: auto;
-    left: 0;
     margin: auto;
   }
 }

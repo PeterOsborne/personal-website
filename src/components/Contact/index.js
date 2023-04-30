@@ -85,17 +85,17 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Peter Hamar Osborne
+          Peter Haraldur Hamar Osborne
           <br />
-          Gold Coast,
+          Sydney,
           <br />
           Australia <br />
         </div>
         <div className="map-wrap">
-          <MapContainer center={[-28.042935, 153.448518]} zoom={2}>
+          <MapContainer center={[-33.9173, 151.2313]} zoom={2}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[-28.042935, 153.448518]}>
-              <Popup>Peter lives here, come over for a cup of coffee :</Popup>
+            <Marker position={[-33.9173, 151.2313]}>
+              <Popup>Peter lives over here, come for a cup of coffee!</Popup>
             </Marker>
           </MapContainer>
         </div>

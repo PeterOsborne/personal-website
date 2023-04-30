@@ -10,7 +10,7 @@ const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     
     const nameArray = ['e', 't', 'e', 'r']
-    const lastNameArray = ['H','a','m','a', 'r',' ','O','s','b','o','r','n','e','.']
+    const lastNameArray = ['H', 'a', 'r', 'a', 'l', 'd', 'u', 'r', ' ', 'H', 'a','m','a', 'r',' ','O','s','b','o','r','n','e','.']
 
     useEffect(() => {
         setTimeout(() => {
