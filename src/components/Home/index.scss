@@ -3,11 +3,10 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 10%;
-    top: 50%;
     transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    width: 70%;
+    margin-left: 300px;
+    margin-top: 400px;
   }
 
   h1 {
@@ -17,6 +16,7 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
+    word-wrap: break-word !important;
 
     &:before {
       content: '<h1>';
@@ -41,11 +41,11 @@
       opacity: 0.6;
     }
 
-    
+
     img {
-      padding:0;
+      padding: 0;
       margin-left: -52px;
-      margin-top:-10px;
+      margin-top: -10px;
       opacity: 0;
       width: 60px;
       height: auto;
@@ -56,6 +56,7 @@
   }
 
   h2 {
+    word-wrap: break-word;
     color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;
@@ -76,9 +77,12 @@
     padding: 10px 18px;
     border: 1px solid #ffd700;
     margin-top: 25px;
-    float: left;
     animation: fadeIn 1s 1.2s backwards;
     white-space: nowrap;
+
+    position: absolute;
+    left: 100;
+    top: 200px;
 
     &:hover {
       background: #ffd700;
@@ -89,22 +93,17 @@
 
 
 
-@media screen and (max-width: 1500px) {
-  .tags,
+@media screen and (max-width: 1200px) {
+  .text-zone {
+    margin-left: 100px !important;
+    margin-top: 400px !important;
+  }
+
   .home-page h1:before,
   .home-page h1:after {
     display: none;
   }
 
-  .home-page .text-zone {
-    position: relative;
-    width: 100%;
-    transform: none;
-    padding: 10px;
-    box-sizing: border-box;
-    justify-content: center !important;
-  }
-  
   .home-page .flat-button {
     float: none;
     display: block;
@@ -112,21 +111,9 @@
     width: 124px;
   }
 
-  .logo-container {
-    position: relative;
-    width: 100px;
-    height: auto;
-    top: 50px;
-    right: 0;
-    box-sizing: border-box;
-    margin: auto;
-  }
-
-  .logo-container svg {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    margin: auto;
+  @media screen and (max-width: 850px) {
+    .flat-button {
+      margin-top: 100px !important;
+    }
   }
 }
