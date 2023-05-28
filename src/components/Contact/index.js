@@ -11,7 +11,7 @@ const Contact = () => {
   const refForm = useRef()
 
   useEffect(() => {
-      setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
@@ -38,7 +38,7 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          <h1>
+          <h1 className='contact-me'>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
@@ -78,7 +78,7 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="SEND"/>
+                  <input type="submit" className="flat-button" value="SEND" />
                 </li>
               </ul>
             </form>

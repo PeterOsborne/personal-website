@@ -1,3 +1,10 @@
+.text-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
 .contact-form {
   width: 100%;
   margin-top: 20px;
@@ -12,8 +19,6 @@
       list-style: none;
       margin-bottom: 10px;
       opacity: 0;
-      overflow: hidden;
-      display: block;
       clear: both;
       position: relative;
       animation: fadeInUp 2s 2s;
@@ -57,19 +62,18 @@
   }
 
   .flat-button {
+    position: relative;
     color: #ffd700;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
     border: 1px solid #ffd700;
-    float: left;
     border-radius: 4px;
     background: 0 0;
     text-transform: uppercase;
     float: right;
     text-align: center;
-    margin-right: 10px;
   }
 }
 
@@ -78,7 +82,7 @@
   float: right;
   width: 53%;
   height: 115%;
-  margin-top: -3%;
+  margin-top: -65px;
 }
 
 .leaflet-container {
@@ -91,10 +95,10 @@
 }
 
 .info-map {
-  position:fixed;
+  position: absolute;
   background: #000;
   top: 50px;
-  right: 30%;
+  right: 40px;
   z-index: 999999;
   width: 267px;
   padding: 20px;
@@ -118,15 +122,67 @@
   }
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1200px) {
+
   .map-wrap {
-    background:rgba(8, 253, 216, 0.1);
-    float: none;
-    margin: 0;
-    width: 100%;
+    margin-top: 50px;
+    position: absolute !important;
+    float: right !important;
     height: 400px;
+    width: 70%;
+    left: 15% !important;
   }
 
+
+  .info-map {
+    margin-top: 50px;
+    position: relative !important;
+    float: right;
+    right: 16%;
+    top: 12px;
+    width: 220px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .flat-button {
+    margin-top: -250px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .map-wrap,
+  .info-map {
+    display: none;
+  }
+
+  li.half {
+    width: 100% !important;
+    margin-left: 0% !important;
+    float: left;
+    clear: both !important;
+  }
+
+  .text-zone {
+    margin-top: 80px !important;
+  }
+
+  .flat-button {
+    font-size: 15px !important;
+    width: 100%;
+    margin-top: -350px;
+  }
+
+  .contact-me {
+    font-size: 40px !important;
+  }
+
+}
+
+@media screen and (max-height: 1100px) {
+
+  .map-wrap,
   .info-map {
     display: none;
   }
