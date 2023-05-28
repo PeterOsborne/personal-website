@@ -62,7 +62,6 @@
   }
 
   .flat-button {
-    position: relative;
     color: #ffd700;
     font-size: 11px;
     letter-spacing: 3px;
@@ -74,6 +73,11 @@
     text-transform: uppercase;
     float: right;
     text-align: center;
+
+    &:hover {
+      background-color: #115173;
+      transition: background-color 100ms linear;
+    }
   }
 }
 
@@ -125,7 +129,7 @@
 @media screen and (max-width: 1200px) {
 
   .map-wrap {
-    margin-top: 50px;
+    margin-top: 760px;
     position: absolute !important;
     float: right !important;
     height: 400px;
@@ -135,7 +139,7 @@
 
 
   .info-map {
-    margin-top: 50px;
+    margin-top: 760px;
     position: relative !important;
     float: right;
     right: 16%;
@@ -146,7 +150,7 @@
   }
 
   .flat-button {
-    margin-top: -250px;
+    margin-top: -10px;
   }
 }
 
@@ -171,7 +175,7 @@
   .flat-button {
     font-size: 15px !important;
     width: 100%;
-    margin-top: -350px;
+    right: 50px;
   }
 
   .contact-me {

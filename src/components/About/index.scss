@@ -91,22 +91,30 @@
 
 @media screen and (max-width: 1200px) {
   .text-zone {
-    position: relative;
+    position: absolute !important;
     width: 60% !important;
-    margin-top: 150px !important;
-    margin-left: calc(100px + 10%);
+    margin-top: 200px;
+    top: 50px !important;
+    margin-left: calc(50px + 10%);
   }
 
   .cubespinner {
     margin-left: 40%;
-    top: 50px !important;
+    top: 700px !important;
     float: left !important;
     margin-right: 0px !important;
   }
 
   @media screen and (max-height: 850px) {
+
     .cubespinner {
       opacity: 0;
     }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cubespinner {
+    top: 600px !important;
   }
 }
