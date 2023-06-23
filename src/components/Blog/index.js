@@ -2,12 +2,12 @@ import { useEffect, useState } from 'react'
 import './index.scss'
 
 
-const Blog =() => {
-    return(
+const Blog = () => {
+    return (
         <>
-            <div>Hello Brother this is the blog</div>
+            <h1 className='blog-header'>Hello Brother this is the blog (might come soon...?)</h1>
         </>
     )
-} 
+}
 
 export default Blog;

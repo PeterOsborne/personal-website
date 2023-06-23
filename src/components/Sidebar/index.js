@@ -41,13 +41,13 @@ const Sidebar = () =>
                 to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
-            {/* <NavLink
+            <NavLink
                 exact="true"
                 activeclassname="active"
                 className="blog-link"
                 to="/blog">
                 <FontAwesomeIcon icon={faBook} color="#4d4d4e" />
-            </NavLink> */}
+            </NavLink>
 
 
         </nav>

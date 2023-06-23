@@ -23,13 +23,13 @@ const Home = () => {
     <>
       <div className="container home-page">
         <div className="text-zone">
-          <h1>
+          <h1 className='h1-home'>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m &emsp; </span>
-            <img src={LogoTitle} alt="JavaScript Developer Name, Web Developer Name" />
+            <img src={LogoTitle} alt="P" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -40,7 +40,7 @@ const Home = () => {
               strArray={lastNameArray}
               idx={19} />
           </h1>
-          <h2> Programmer / Musician / Footballer / Interested in Mathematics and Finance </h2>
+          <h2 className='description'> Programmer / Musician / Footballer / Interested in Mathematics and Finance </h2>
           <Link to="/contact" className="flat-button"> CONTACT ME</Link>
         </div>
         <Logo />
